@@ -1,0 +1,5 @@
+version: "2"
+
+services:
+  php:
+    command: bash -c "phing ci-setup-test"
