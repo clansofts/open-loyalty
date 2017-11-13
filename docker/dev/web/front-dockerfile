@@ -1,4 +1,4 @@
-FROM openloyalty/base-nodejs AS front
+FROM divante/open-loyalty-base-nodejs AS front
 
 RUN usermod -u 1000 www-data
 WORKDIR /var/www/frontend
